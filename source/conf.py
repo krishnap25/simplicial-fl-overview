@@ -95,6 +95,13 @@ html_theme_options = {
     'body_centered': True,
 }
 
+# Book theme
+html_theme = 'sphinx_book_theme'
+html_theme_options = {
+    "repository_url": "https://github.com/krishnap25/sqwash",
+    "use_repository_button": True,
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
